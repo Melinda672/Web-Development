@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Complete a Form</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/content4.css">
+</head>
+
+<body>
+<h1>Please complete my survey</h1>
+   
+<form name="myform" action="survey_data.html" method="get">
+
+	<h2>Contact information</h2>
+	<label for="email">Email address:</label>
+    <input type="email" name="email" id="email" required><br>
+    <label for="firstname">First name:</label>
+    <input type="text" name="firstname" id="firstname"required><br>
+    <label for="lastname">Last name:</label>
+    <input type="text" name="lastname" id="lastname"required>
+    
+<br>Comments:<br>
+    <textarea id = "comments">
+    </textarea><br><br><br>
+    
+    <input type="submit" name="button" id="button" value="Submit">
+    <input type="reset" name="reset" id="reset"> 
+</form>
+</body>
+</html>

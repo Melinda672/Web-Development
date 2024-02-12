@@ -1,0 +1,125 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    width: 850px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+
+header {
+	padding: 1.5em 0 2em 0;
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+header h2 {
+	font-size: 175%;
+	color: black;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+    color: black;
+}
+
+.shadow {
+	text-shadow: 2px 2px 2px black;
+}
+
+header img {
+	float: left;
+	padding: 0 30px;
+}
+
+nav {
+	display: none;
+}
+nav ul {
+	display: none;
+}
+nav ul li {
+	display: none;
+}
+nav ul li a {
+	display: none;
+}
+
+main {
+	clear: left;
+}
+
+section {
+	width: 575px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+section h1 {
+    color: black;
+	font-size: 150%;
+	padding: .5em 0 .25em 0;
+	margin: 0;               
+}
+section h2 {
+	color: black;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+     display: none;
+}
+aside h2 {
+	color: black;
+	font-size: 130%;
+	padding: 1em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+    padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+aside h3 a {
+    color: black;
+    display: none;
+}
+
+footer {
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: black;
+	padding: 1em 0;
+    border: 1px solid black;
+}
